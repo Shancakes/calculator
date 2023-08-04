@@ -19,10 +19,12 @@ A simple calculator app built using Javascript, HTML, and CSS. The app enables u
 
 -Javascript
 
-## How To Play
+## How To Interact
 
 -Clone this repository
 
 -Open the HTML file in your browser
+
+-Start calculating
 
 # Enjoy using the Calculator App!

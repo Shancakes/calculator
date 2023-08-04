@@ -1,14 +1,20 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 50px;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 50px;
+}
+
+h1 {
+    font-size: 70px;
+    color: #FFFFFF;
 }
 
 .calculator {
     width: 300px;
     margin: auto;
     padding: 20px;
-    border: 2px solid #000000;
+    border: 2px solid purple;
     border-radius: 8px;
 }
 
@@ -18,7 +24,11 @@ body {
     margin-bottom: 10px;
     font-size: 24px;
     text-align: right;
+    color: #000000;
+    font-size: 40px;
+    font-family: 'Space Grotesk', sans-serif;
     background-color: plum;
+    opacity: 100;
 }
 
 .buttons table {
