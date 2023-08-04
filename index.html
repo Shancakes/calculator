@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Basic Calculator</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="main"></div>
+    <div class="calculator">
+        <input type="text" id="display" disabled>
+        <div class="buttons">
+            <table>
+                <tr>
+                    <td onclick="clearDisplay()">C</td>
+                    <td onclick="addValue('/')">/</td>
+                    <td onclick="addValue('*')">x</td>
+                    <td onclick="calculate()">=</td>
+                </tr>
+                <tr>
+                    <td onclick="addValue('7')">7</td>
+                    <td onclick="addValue('8')">8</td>
+                    <td onclick="addValue('9')">9</td>
+                    <td onclick="addValue('-')">-</td>
+                </tr>
+                <tr>
+                    <td onclick="addValue('4')">4</td>
+                    <td onclick="addValue('5')">5</td>
+                    <td onclick="addValue('6')">6</td>
+                    <td onclick="addValue('+')">+</td>
+                </tr>
+                <tr>
+                    <td onclick="addValue('1')">1</td>
+                    <td onclick="addValue('2')">2</td>
+                    <td onclick="addValue('3')">3</td>
+                    <td rowspan="2" onclick="addValue('0')">0</td>
+                </tr>
+                <tr>
+                    <td colspan="2" onclick="addValue('.')">.</td>
+                    <td onclick="calculate()">=</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
